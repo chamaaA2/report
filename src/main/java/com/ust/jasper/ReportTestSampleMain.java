@@ -1,4 +1,4 @@
-package com.usr;
+package com.ust.jasper;
 
 public class ReportTestSampleMain {
 }

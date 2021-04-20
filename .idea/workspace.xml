@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="" />
+    <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usr/ReportTestSampleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/jasper/ReportTestSampleMain.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rR6K55TEtG9dtImAd4cflIGPa8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -43,11 +49,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618926487460</updated>
-      <workItem from="1618926489369" duration="1728000" />
+      <workItem from="1618926489369" duration="2365000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
