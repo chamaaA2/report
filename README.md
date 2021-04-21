@@ -1,2 +1,2 @@
 # report
-Research and development with Dynaminreport libraries
+Research and development about Enterprise Report creation with Dynamic report libraries
