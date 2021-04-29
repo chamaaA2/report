@@ -22,5 +22,10 @@
             <artifactId>dynamicreports-googlecharts</artifactId>
             <version>5.1.0</version>
         </dependency>
-    </dependencies>>
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.16.0</version>
+        </dependency>
+    </dependencies>
 </project>

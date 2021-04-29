@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/usr/ReportTestSampleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/jasper/ReportTestSampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/trainTemplate.jrxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +26,16 @@
   <component name="ProjectId" id="1rR6K55TEtG9dtImAd4cflIGPa8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\report\src\main\resources\META-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,8 +59,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618926487460</updated>
-      <workItem from="1618926489369" duration="2365000" />
+      <workItem from="1618926489369" duration="3171000" />
+      <workItem from="1618990380914" duration="760000" />
+      <workItem from="1619059519431" duration="1186000" />
+      <workItem from="1619076542959" duration="1363000" />
+      <workItem from="1619090523819" duration="1184000" />
+      <workItem from="1619152993172" duration="585000" />
+      <workItem from="1619159315948" duration="591000" />
+      <workItem from="1619437398009" duration="587000" />
+      <workItem from="1619493009950" duration="2038000" />
+      <workItem from="1619514976136" duration="585000" />
+      <workItem from="1619580662575" duration="585000" />
+      <workItem from="1619596582786" duration="583000" />
+      <workItem from="1619626559989" duration="581000" />
+      <workItem from="1619665885365" duration="586000" />
+      <workItem from="1619678256519" duration="584000" />
+      <workItem from="1619684295877" duration="1213000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial data">
+      <created>1618929093129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618929093129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,10 +94,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial data" />
   </component>
 </project>
