@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/trainTemplate.jrxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rR6K55TEtG9dtImAd4cflIGPa8" />
@@ -74,7 +76,7 @@
       <workItem from="1619626559989" duration="581000" />
       <workItem from="1619665885365" duration="586000" />
       <workItem from="1619678256519" duration="584000" />
-      <workItem from="1619684295877" duration="1213000" />
+      <workItem from="1619684295877" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial data">
       <created>1618929093129</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618929093129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add jrxml file">
+      <created>1619704768836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619704768836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial data" />
+    <MESSAGE value="Add jrxml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jrxml file" />
   </component>
 </project>
