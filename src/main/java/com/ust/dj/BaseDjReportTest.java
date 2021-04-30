@@ -5,6 +5,7 @@ import ar.com.fdvs.dj.core.layout.ClassicLayoutManager;
 import ar.com.fdvs.dj.core.layout.LayoutManager;
 import ar.com.fdvs.dj.domain.DynamicReport;
 import ar.com.fdvs.dj.util.SortUtils;
+import com.ust.dj.datasource.TestRepositoryProducts;
 import junit.framework.TestCase;
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JasperExportManager;
@@ -53,9 +54,9 @@ public abstract class BaseDjReportTest extends TestCase {
                  * the JasperReport object, and the JRDataSource
                  */
                 log.debug("Filling the report");
-//                if (ds != null)
-//                        jp = JasperFillManager.fillReport(jr, params, ds);
-//                else
+                if (ds != null)
+                        jp = JasperFillManager.fillReport(jr, params, ds);
+                else
                         jp = JasperFillManager.fillReport(jr, params);
 
                 log.debug("Filling done!");
@@ -76,7 +77,7 @@ public abstract class BaseDjReportTest extends TestCase {
                 file.mkdirs();
 
                 JasperExportManager.exportReportToPdfFile(jp, path+"/reportNameDJ.pdf");
-                //exportToJRXML();
+                exportToJRXML();
         }
 
         protected void exportToJRXML() throws Exception {
@@ -96,8 +97,7 @@ public abstract class BaseDjReportTest extends TestCase {
          * @return JRDataSource
          */
         protected JRDataSource getDataSource() {
-//                Collection dummyCollection = TestRepositoryProducts.getDummyCollection();
-                Collection dummyCollection = Arrays.asList("a","b","c","d","b","c","d");
+               Collection dummyCollection = TestRepositoryProducts.getDummyCollection();
                 dummyCollection = SortUtils.sortCollection(dummyCollection, dr.getColumns());
 
                 JRDataSource ds = new JRBeanCollectionDataSource(dummyCollection);        //Create a JRDataSource, the Collection used
@@ -105,11 +105,11 @@ public abstract class BaseDjReportTest extends TestCase {
                 return ds;
         }
 
-//        public Collection getDummyCollectionSorted(List columnlist) {
-//                Collection dummyCollection = TestRepositoryProducts.getDummyCollection();
-//                return SortUtils.sortCollection(dummyCollection, columnlist);
-//
-//        }
+        public Collection getDummyCollectionSorted(List columnlist) {
+                Collection dummyCollection = TestRepositoryProducts.getDummyCollection();
+                return SortUtils.sortCollection(dummyCollection, columnlist);
+
+        }
 
         public DynamicReport getDynamicReport() {
                 return dr;

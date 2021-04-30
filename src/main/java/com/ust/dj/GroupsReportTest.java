@@ -46,7 +46,7 @@ public class GroupsReportTest extends BaseDjReportTest {
 		groupVariables.setHorizontalAlign(HorizontalAlign.RIGHT);
 		groupVariables.setVerticalAlign(VerticalAlign.BOTTOM);
 		Style titleStyle = new Style("titleStyle");
-		titleStyle.setFont(new Font(18, Font._FONT_VERDANA, true));
+		titleStyle.setFont(Font.ARIAL_MEDIUM_BOLD);
 		Style importeStyle = new Style();
 		importeStyle.setHorizontalAlign(HorizontalAlign.RIGHT);
 		Style oddRowStyle = new Style();
@@ -54,7 +54,7 @@ public class GroupsReportTest extends BaseDjReportTest {
 		oddRowStyle.setBackgroundColor(Color.LIGHT_GRAY);
 		//oddRowStyle.setTransparency(Transparency.OPAQUE);
 		DynamicReportBuilder drb = new DynamicReportBuilder();
-		Integer margin = new Integer(20);
+		Integer margin = new Integer(40);
 		drb
 				.setTitleStyle(titleStyle)
 				.setTitle("November " + getYear() + " sales report")                    //defines the title of the report
