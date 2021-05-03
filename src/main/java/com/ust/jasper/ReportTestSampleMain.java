@@ -45,7 +45,7 @@ public class ReportTestSampleMain {
                 .setTemplate(ReportTemplate.reportTemplate)
                 .setTemplateDesign(is)
                 .addNoData(cmp.text("None").setStyle(ReportTemplate.noneStyle))
-                .addParameter("stockLoanActivity",stockLoanActivity)
+                .title(stockLoanActivity)
                 .setPageMargin(margin().setLeft(52).setBottom(30).setTop(50).setRight(52))
                 .toPdf(pdfExporter);
     }
