@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fontFamilies>
+
+	<fontFamily name="calibri">
+		<normal>META-INF/fonts/calibri.ttf</normal>
+		<bold>META-INF/fonts/calibrib.ttf</bold>
+		<italic>META-INF/fonts/calibrii.ttf</italic>
+		<boldItalic>META-INF/fonts/calibriz.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+	</fontFamily>
+
+    <fontFamily name="arial">
+        <normal>META-INF/fonts/ArialCE.ttf</normal>
+        <bold>META-INF/fonts/ArialCEBold.ttf</bold>
+        <italic>META-INF/fonts/ArialCEItalic.ttf</italic>
+        <boldItalic>META-INF/fonts/ArialCEBoldItalic.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="arial-black">
+        <normal>META-INF/fonts/ariblk.ttf</normal>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="Times New Roman">
+		<normal>META-INF/fonts/times.ttf</normal>
+		<bold>META-INF/fonts/timesbd.ttf</bold>
+		<italic>META-INF/fonts/timesi.ttf</italic>
+		<boldItalic>META-INF/fonts/timesbi.ttf</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+	</fontFamily>
+</fontFamilies>
