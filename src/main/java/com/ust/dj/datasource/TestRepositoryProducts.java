@@ -6,7 +6,9 @@ import com.ust.dj.domain.Product;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Kushan
+ */
 public class TestRepositoryProducts {
 
     public static List<Product> getDummyCollection(){

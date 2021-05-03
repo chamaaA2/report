@@ -1,4 +1,4 @@
-package com.ust.jasper;
+package com.ust.dynamic;
 
 import net.sf.dynamicreports.jasper.builder.JasperReportBuilder;
 import net.sf.dynamicreports.jasper.builder.export.JasperPdfExporterBuilder;
@@ -41,7 +41,7 @@ public class ReportTestSampleMain {
         SubreportBuilder stockLoanActivity = cmp.subreport(new StockLoanExpression())
                 .setDataSource(new StockLoanDatasource());
         InputStream is = ReportTestSampleMain.class.getResourceAsStream("/META-INF/trainTemplate.jrxml");
-        JasperPdfExporterBuilder pdfExporter = export.pdfExporter("C:\\Users\\CHAMATH\\Desktop\\test.pdf");
+        JasperPdfExporterBuilder pdfExporter = export.pdfExporter("C:\\Users\\Ravindu\\Desktop\\reportLoc\\testDynamic.pdf");
         report()
                 .setTemplate(ReportTemplate.reportTemplate)
                 .setTemplateDesign(is)

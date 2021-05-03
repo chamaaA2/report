@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="Dynamic Jasper Reports without Data Source">
+    <list default="true" id="6c3adafd-eac8-4f9d-bde0-e0702f241804" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ust/dj/dynamicfailgrps/ReportTemplateForDJ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/dj/BaseDjReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dj/BaseDjReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/dj/GroupsReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dj/GroupsReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/dj/datasource/TestRepositoryProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dj/datasource/TestRepositoryProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/jasper/ReportTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dynamic/ReportTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/jasper/ReportTestSampleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dynamic/ReportTestSampleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ust/jasper/SLBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ust/dynamic/SLBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,15 +58,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PRODUCTION_TASKS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ust.dj.dynamicfailgrps" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ravindu\Desktop\Reporting Tool\report\src\main\java\com\ust\dj" />
       <recent name="D:\report\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReportTestSampleMain">
     <configuration name="GroupsReportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ust.dj.GroupsReportTest" />
       <module name="report" />
@@ -73,8 +87,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportTestSampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ust.dynamic.ReportTestSampleMain" />
+      <module name="report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupsReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ust.dj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ust.dj" />
+      <option name="MAIN_CLASS_NAME" value="com.ust.dj.GroupsReportTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReportTestSampleMain" />
+        <item itemvalue="JUnit.GroupsReportTest" />
         <item itemvalue="Application.GroupsReportTest" />
       </list>
     </recent_temporary>
@@ -109,7 +164,8 @@
       <workItem from="1619705889263" duration="6555000" />
       <workItem from="1619764575071" duration="5982000" />
       <workItem from="1619773872612" duration="1337000" />
-      <workItem from="1620014610800" duration="1996000" />
+      <workItem from="1620014610800" duration="2207000" />
+      <workItem from="1620042828819" duration="8191000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial data">
       <created>1618929093129</created>
@@ -139,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619773596281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dynamic Jasper Reports without Data Source">
+      <created>1620042604469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620042604469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,30 +232,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1619765598823" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1619773678726">
+    <state x="551" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1620043106990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619773678726" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620016468480">
+    <state x="551" y="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1620043106990" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1620042603854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620016468480" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1619773846159">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620042603854" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620042774816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619773846159" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1619773846159">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620042774816" />
+    <state width="746" height="107" key="GridCell.Tab.0.bottom" timestamp="1620053697425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619773846159" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1619773846159">
+    <state width="746" height="107" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620053697425" />
+    <state width="746" height="107" key="GridCell.Tab.0.center" timestamp="1620053697425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619773846159" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1619773846159">
+    <state width="746" height="107" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620053697425" />
+    <state width="746" height="107" key="GridCell.Tab.0.left" timestamp="1620053697425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619773846159" />
+    <state width="746" height="107" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620053697425" />
+    <state width="746" height="107" key="GridCell.Tab.0.right" timestamp="1620053697425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="107" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620053697425" />
     <state width="1493" height="240" key="GridCell.Tab.1.bottom" timestamp="1619773846159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,10 +284,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1619773768274" />
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1619773600700">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1620043044697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619773600700" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620043044697" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1620042632292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620042632292" />
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1619716073608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,7 +302,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ust/dj/BaseDjReportTest.java</url>
-          <line>78</line>
+          <line>80</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

@@ -1,4 +1,4 @@
-package com.ust.jasper;
+package com.ust.dynamic;
 import net.sf.dynamicreports.report.builder.ReportTemplateBuilder;
 import net.sf.dynamicreports.report.builder.style.SimpleStyleBuilder;
 import net.sf.dynamicreports.report.builder.style.StyleBuilder;

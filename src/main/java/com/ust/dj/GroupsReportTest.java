@@ -19,7 +19,9 @@ import net.sf.jasperreports.view.JasperDesignViewer;
 import net.sf.jasperreports.view.JasperViewer;
 
 import java.awt.*;
-
+/**
+ * @author Kushan
+ */
 public class GroupsReportTest extends BaseDjReportTest {
 	public DynamicReport buildReport() throws Exception {
 		Style detailStyle = new Style("detail");
