@@ -20,6 +20,7 @@ import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -80,14 +81,12 @@ class StockLoanExpression extends AbstractSimpleExpression<JasperReportBuilder> 
         report.addNoData(cmp.text("None").setStyle(ReportTemplate.noneStyle));
         report.columns(loanColumnBuilders)
                 .setSubtotalStyle(ReportTemplate.subGroupFooterColor)
-                .addParameter("userstr", "chamath")
-                .addParameter("createdate", "2021/05/02")
                 .groupBy(symbolGroup)
                 .subtotalsAtGroupFooter(symbolGroup,
                         sbt.first(new SideStockExpression(), loanColMap.get("date")).setStyle(ReportTemplate.leftAlignStyleBold),
-                        sbt.first(new SideStockExpression(), loanColMap.get("quantity")).setStyle(ReportTemplate.leftAlignStyleBold),
-                        sbt.first(new SideStockExpression(), loanColMap.get("interestAmount")).setStyle(ReportTemplate.leftAlignStyleBold),
-                        sbt.first(new SideStockExpression(), loanColMap.get("collateralAmount")).setStyle(ReportTemplate.leftAlignStyleBold))
+                        sbt.first(new TestStockExpression(), loanColMap.get("quantity")).setStyle(ReportTemplate.rightAlignStyleBold),
+                        sbt.first(new TestStockExpression(), loanColMap.get("interestAmount")).setStyle(ReportTemplate.rightAlignStyleBold),
+                        sbt.first(new TestStockExpression(), loanColMap.get("collateralAmount")).setStyle(ReportTemplate.rightAlignStyleBold))
                 .setGroupFooterStyle(symbolGroup, ReportTemplate.subGroupFooterColor);
         return report;
     }
@@ -96,7 +95,7 @@ class StockLoanExpression extends AbstractSimpleExpression<JasperReportBuilder> 
 class StockLoanDatasource extends AbstractSimpleExpression<JRDataSource> {
 
     private static final long serialVersionUID = 11L;
-    private List<SLBean> data;
+    private List<SLBean> data = new LinkedList<>();
     private Map<String,Map<String,BigDecimal>> onLoanQtyMap1 = new HashMap<>();
 
     public StockLoanDatasource() throws Exception {
@@ -130,12 +129,19 @@ class SideStockExpression extends AbstractSimpleExpression<String> {
 
     @Override
     public String evaluate(ReportParameters reportParameters) {
-        String symbol = reportParameters.getValue("symbol");
         return "Total Loan";
     }
 
 }
+class TestStockExpression extends AbstractSimpleExpression<String> {
+    private static final long serialVersionUID = 2001L;
 
+    @Override
+    public String evaluate(ReportParameters reportParameters) {
+        return "0";
+    }
+
+}
 class SymbolExpression extends AbstractSimpleExpression<String> {
     private static final long serialVersionUID = 102L;
 
